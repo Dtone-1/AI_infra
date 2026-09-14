@@ -1,0 +1,49 @@
+# Local application state, caches, and private plugin settings
+.copilot/
+.obsidian/workspace*.json
+.obsidian/graph.json
+.obsidian/plugins/
+copilot/copilot-conversations/
+.DS_Store
+Thumbs.db
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+
+# Python / Node environments and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.log
+
+# Installers, large source bundles, and model weights
+*.exe
+*.msi
+*.msix
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.gguf
+
+# Personal resumes (keep local)
+*简历*.pdf
+
+# Never publish nested Git metadata
+.git/
